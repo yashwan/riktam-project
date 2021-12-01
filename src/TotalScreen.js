@@ -28,7 +28,7 @@ export default function TotalScreen({ email }) {
               <LeftSideBar email={email} />
             </Paper>
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs>
             <Paper className={classes.paper}>
               <MiddleSideBar />
             </Paper>
